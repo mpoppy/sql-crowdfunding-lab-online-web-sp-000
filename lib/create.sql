@@ -1,5 +1,5 @@
 
-CREATE TABLE IF NOT EXISTS projects (
+CREATE TABLE projects (
   id INTEGER PRIMARY KEY,
   title TEXT,
   category TEXT,
@@ -7,12 +7,12 @@ CREATE TABLE IF NOT EXISTS projects (
   start_date TEXT,
   end_date TEXT
 )
-CREATE TABLE IF NOT EXISTS users (
+CREATE TABLE users (
   id INTEGER PRIMARY KEY,
   name TEXT,
   age INTEGER,
 )
-CREATE TABLE IF NOT EXISTS pledges (
+CREATE TABLE pledges (
   id INTEGER PRIMARY KEY,
   amount INTEGER,
   user_id INTEGER,
