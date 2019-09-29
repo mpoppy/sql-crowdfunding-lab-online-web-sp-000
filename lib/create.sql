@@ -12,7 +12,7 @@ CREATE TABLE IF NOT EXISTS users (
   name TEXT,
   age INTEGER,
 );
-CREATE TABLE pledges (
+CREATE TABLE IF NOT EXISTS pledges (
   id INTEGER PRIMARY KEY,
   amount INTEGER,
   user_id INTEGER,
