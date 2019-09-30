@@ -10,6 +10,9 @@ def selects_the_titles_of_all_projects_and_their_pledge_amounts_alphabetized_by_
   #select the titles of all projects from project TABLE
   #select amount from pledge by joining pledge project_id = project.id
   #order by asc
+  SELECT title, amount
+  FROM projects
+  INNER JOIN 
 end
 
 def selects_the_user_name_age_and_pledge_amount_for_all_pledges_alphabetized_by_name
