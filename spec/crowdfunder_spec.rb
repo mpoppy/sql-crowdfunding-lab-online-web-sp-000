@@ -95,7 +95,7 @@ describe "crowdfunder sql" do
     end
 
     it '#selects_the_titles_of_all_projects_and_their_pledge_amounts_alphabetized_by_title' do
-      expect(@db.execute(selects_the_titles_of_all_projects_and_their_pledge_amounts_alphabetized_by_title)).to eq([["Animal shelter needs dog food", 210], ["Help me buy a guitar", 98], ["Help save birds of paradise", 170], ["I have bed bugs!", 740], ["I want to teach English in China", 200], ["Iguana needs tail operation", 1035.5], ["My book on SQL", 20], ["The next Harry Potter", 120], ["The next Inna-Gadda-Davida", 342], ["Voldement needs a body", 489]])
+      expect(@db.execute(selects_the_titles_of_all_projects_and_their_pledge_amounts_alphabetized_by_title)).to eq([["Animal shelter needs dog food", 210], ["Help me buy a guitar", 98], ["Help save birds of paradise", 170], ["I have bed bugs!", 740], ["I want to teach English in China", 200], ["Iguana needs tail operation", 1035.5], ["My book on SQL", 20], ["The next Harry Potter", 120], ["The next Inna-Gadda-Davida", 342],["Voldement needs a body", 489]])
     end
 
     it '#selects_the_user_name_age_and_pledge_amount_for_all_pledges_alphabetized_by_name' do
